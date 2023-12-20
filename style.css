@@ -1,43 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
 
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-
-nav {
-    background: transparent;
-    width: 100vw;
-    height: 5rem;
-    position: fixed;
-    top: 0;
-    z-index: 11;
-}
-audio{
-    margin-left: 70%;
-    margin-top: 80px;
-}
-
-/*change navbar style on scroll usein js*/
-.window-scroll{
-    background: rgb(244, 244, 252) ;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-}
-.nav__container{
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center ;
-}
-.nav__container h1{
-    color: rgb(104, 33, 104);
-    text-align: center auto;
-    font-size: 20px;
-    margin-left: 40%;
-    font-family: 'Kaushan Script', cursive;;
-    text-decoration: overline;
+    font-family: 'Signika', sans-serif;
 }
 
 
@@ -45,18 +13,24 @@ h1{
     font-size: 20px solid;
 }
 .desc_section{
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 30px;
+    margin-left: 20px ;
+    margin-right: 20px ;
+    margin-top: 10px;
     background: rgb(236, 229, 229);
-    height: 120vh;
+    height: 40vh auto;
     border-radius: 10px;
     box-shadow: inset 0 0 -2rem rgba(131, 128, 128, 0.5);
     padding: 20px;
     padding-right: 10px;
+    padding-top: 0px;
+    margin-bottom: 0;
+   
 }
 .desc_section2{
-    height: 300vh ;
+    height: 300vh auto;
+    padding-top: 20px;
+    margin-top: 9px;
+    position: absolute;
 }
 .desc_section h1{
     font-size: 20px;
@@ -82,8 +56,10 @@ p{
 }
 .long_img img{
     height: 400px;
-    width: 300px;
-    padding-left: 30px;
+    width: 300px auto;
+   
+    align-self: center;
+    position: relative;
 }
  .round_img img{
     height: 2rem;
@@ -93,7 +69,7 @@ p{
 }
 .header__desc{
     padding: 20px;
-    padding-top: 60px;
+
 }
 .header__desc h1{
     font-size: 20px;
@@ -110,8 +86,7 @@ img{
     height: 200px;
 }
 .desc_section p{
-text-align: justify;
-padding-right: 30px;
+padding-right: 20px;
 padding-top: 10px;
 font-size: 20px;
 line-height: 25px;
@@ -159,9 +134,41 @@ padding-bottom: 20px;
 h3{
     color: red;
     padding-top: 20px;
+    font-weight: bolder;
 }
 .tick{
     padding-top: 20px;
     list-style-type: disc;
     line-height: 30px;
-  }
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.header__desc h1{
+    font-weight: bolder;
+    padding-bottom:  20px;
+}
+.x_underline_red{
+    font-weight: bolder;
+    font-size: 18px;
+    
+}
+.you_must_be_thinking h1{
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+.you_must_be_thinking span{
+    font-size: 17px;
+    padding-top: 0px;
+    font-weight: lighter;
+}
+.desc_section2 .sm_blk{
+    font-size: 17px;
+    font-weight: lighter;
+     
+}
+.desc_section2 p{
+    font-size: 17px;  
+}
+.red_span .red{
+    font-weight: bolder;
+}
